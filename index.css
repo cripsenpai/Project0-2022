@@ -1,28 +1,91 @@
-ul {
+* {
+  background-color: #202124;
+  font-family: Arial, sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: visible;
+}
+
+.nav {
   list-style-type: none;
+  position: relative;
+  display: block;
+  height: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+}
+
+ul {
+  float: right;
+  padding: 0% 3% 0% 0%;
 }
 
 li {
-  float: right;
+  display: inline;
 }
 
 li a {
   text-decoration: none;
   text-align: center;
-  display: block;
   padding: 15px;
-  color: white;
-  font: 13px arial,sans-serif;
+  color: black;
+  font: 14px arial, sans-serif;
 }
 
 .logo {
   position: relative;
+  text-align: center;
+  display: block;
+  top: 15%;
 }
 
-.Logo {
+a {
+  position: relative;
+  margin: auto;
+  font-size: 90px;
+  width: 100%;
+}
+
+.form {
+  position: relative;
   text-align: center;
+  display: block;
+  top: 25%;
+  height: 20%;
+}
+
+form {
+  height: 100%;
+}
+
+.cbar {
+  display: block;
+  width: 100%;
+  height: 50%;
+  margin: 0;
+  padding: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bar {
+  position: relative;
+  margin: auto;
+  width: 100%;
+}
+
+.cbutton {
+  display: block;
+  width: 100%;
+  height: 50%;
+  margin: auto;
 }
 /*# sourceMappingURL=index.css.map */
